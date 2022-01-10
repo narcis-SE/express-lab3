@@ -67,6 +67,9 @@ export function calculateAverage():number{
         }
     }
     average = ((totalScore/totalPossibleScore) *100);
-    console.log(average.toFixed(2));
     return average; 
+}
+
+export function readAssignmentById(id:number): Assignments| undefined{
+    return data.find(assignment=>assignment.id===id);
 }
