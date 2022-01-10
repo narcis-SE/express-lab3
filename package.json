@@ -7,7 +7,7 @@
     "build": "tsc",
     "start": "ts-node src/index.ts",
     "start:dev": "nodemon src/index.ts"
-  },
+  },  
   "author": "Grand Circus Detroit",
   "license": "ISC",
   "devDependencies": {
